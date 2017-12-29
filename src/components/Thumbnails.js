@@ -26,6 +26,10 @@ export default class Thumbnails extends Component{
               <Image source={require('../../Images/travel.png')} style={{height: 80, width: 88}} />
               <Text style={{textAlign: 'center'}}>Travel</Text>
           </View>
+          <View style={styles.thumb3}>
+              <Image source={require('../../Images/Photo.png')} style={{height: 80, width: 88}} />
+              <Text style={{textAlign: 'center'}}>Photography</Text>
+          </View>
       </View>
     );
   }
@@ -42,5 +46,11 @@ const styles = StyleSheet.create({
        marginTop: -100,
        marginRight: 160,
        marginLeft: 100
+    },
+    thumb3: {
+       borderWidth: 1,
+       marginTop: -100,
+       marginRight: 60,
+       marginLeft: 200
     }
 });

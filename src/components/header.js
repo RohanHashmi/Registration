@@ -42,8 +42,9 @@ const styles = StyleSheet.create({
     },
   text: {
     textAlign: 'center',
-    paddingBottom: 10
-  //   fontSize: 20
+    paddingBottom: 10,
+    fontSize: 20,
+    marginTop: -8
   },
   img1: {
     marginLeft: 290,
